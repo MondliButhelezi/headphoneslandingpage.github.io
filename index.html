@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="mystyles.css" />
+    <link rel="icon" href="https://i.imgur.com/x8Dmvm4.png">
+    <title>VM Ware - Headphones</title>
+  </head>
+
+  <body>
+    <header id="header">
+      <nav id="nav-bar" class="navbar">
+        <div class="container">
+          <a href="https://imgur.com/x8Dmvm4"
+            ><img
+              id="header-img"
+              src="https://i.imgur.com/x8Dmvm4.png"
+              alt="logo design"
+          /></a>
+          <ul class="nav">
+            <li><a class="nav-link" href="#home">Home</a></li>
+            <li><a class="nav-link" href="#about">About</a></li>
+            <li><a class="nav-link" href="#email">Subscribe</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+      <br/>
+    <!-- Showcase -->
+    <section class="section-a">
+      <div class="container">
+        <div>
+          <h1 id="home">The headphones of the future.</h1>
+          <p>
+            Active Noise Cancelling: Reduce background noise at work, home or
+            when travelling with incredible Active Noise Cancelling technology.
+            Ambient noise is detected by an on-board microphone and a signal is
+            generated to greatly reduce external noise like aeroplane engines,
+            office hubbub or loud crowds. You will hear and feel the difference!
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <img src="https://i.ibb.co/37Y74kv/showcase.jpg" alt="" />
+      </div>
+    </section>
+
+    <!-- Large Text -->
+    <section id="about" class="section-b">
+      <div class="overlay">
+        <div class="section-b-inner py-5">
+          <h3 class="text-2">Loud & Clear</h3>
+          <h2 class="text-5 mt-1">People Aren't Hearing All the Music</h2>
+          <p class="mt-1">
+            Enjoy up to 16 hours of play time on a single charge – Your VM Ware
+            headphones are the perfect travel companion.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery -->
+    <section class="section-c">
+      <div class="gallery">
+        <a class="big"><img src="https://i.imgur.com/yat9eDc.jpg" alt="" /></a>
+        <a class="big"><img src="https://i.imgur.com/JOHFAVR.jpg" alt="" /></a>
+        <a class="big"><img src="https://i.imgur.com/FwH8hnL.jpg" alt="" /></a>
+        <a class="big"><img src="https://i.imgur.com/iuo99bj.jpg" alt="" /></a>
+        <a class="big"><img src="https://i.imgur.com/6UwcyyV.jpg" alt="" /></a>
+        <a class="big"><img src="https://i.imgur.com/A4zTUsJ.jpg" alt="" /></a>
+      </div>
+    </section>
+
+    <section id="videos">
+      <h3 class="suscribe">Subscribe</h3>
+      <p class="jola">
+        Be the first to pre-order new product, hear about deals, and catch our
+        exclusive fan offers, competitions and much more. Services availability
+        depends on region.
+      </p><br/>
+      <section id="hero">
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="Enter your email address"
+            required
+          />
+          <input id="submit" type="submit" value="Subscribe" class="btn" /> <br />
+        </form>
+      </section>
+
+        <div class="container">
+          <iframe
+            width="560"
+            id="video"
+            height="315"
+            src="https://www.youtube.com/embed/vuoxprrEwbg"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="section-footer py-4 bg-primary">
+      <div class="container">
+        <div>
+          <h2 class="text-2 mb-1">VM Ware is for the lovers of Music.</h2>
+          <a href="http://twitter.com">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+          <a href="http://facebook.com">
+            <i class="fab fa-facebook fa-2x"></i>
+          </a>
+          <a href="http://youtube.com">
+            <i class="fab fa-youtube fa-2x"></i>
+          </a>
+        </div>
+        <div>
+          <h3 id="one">Company Info</h3>
+          <ul>
+            <li><a href="#">All Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 id="one">Browse</h3>
+          <ul>
+            <li><a href="#">ACCESSORIES</a></li>
+            <li><a href="#">CAMERAS</a></li>
+            <li><a href="#">COMPUTING</a></li>
+            <li><a href="#">VM GAMING</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      function validateForm() {
+        var x = document.forms["myForm"]["fname"].value;
+        if (x == "") {
+          alert("Name must be filled out");
+          return false;
+        }
+      }
+    </script>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
